@@ -12,3 +12,5 @@ Needed a place to store all design that I come across that inspires me, while at
 bye.
 
 [insp](https://insp.pages.dev)
+
+![insp thumbnail](insp__thumbnail.png "Thumbnail")
