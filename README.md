@@ -5,8 +5,9 @@ Needed a place to store all design that I come across that inspires me, while at
 - Built using Next.js
 - Content written in markdown
 - Scroll animations uing Gsap Scrolltrigger
-- Smooth scrolling by Lenis (AMAZING)
+- Smooth scrolling by Lenis (🙏)
 - Pages generated as static HTML
+- Deployed on Cloudflare pages (🙏)
 
 bye.
 
