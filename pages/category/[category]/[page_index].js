@@ -3,7 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { numPages, getCategoryInspoItems } from "@/utils/index";
 
-const POSTS_PER_PAGE = 2;
+const POSTS_PER_PAGE = 24;
 
 import {
   HeadTag,
