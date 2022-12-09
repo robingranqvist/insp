@@ -7,10 +7,10 @@ Needed a place to store all design that I come across that inspires me, while at
 - Scroll animations uing Gsap Scrolltrigger
 - Smooth scrolling by Lenis (🙏)
 - Pages generated as static HTML
-- Deployed on Cloudflare pages (🙏)
+- Deployed on ~~Cloudflare pages~~ Netlify (🙏)
 
 bye.
 
-[insp](https://insp.pages.dev)
+[insp](https://design-inspiration.netlify.app/)
 
 ![insp thumbnail](insp__thumbnail.png "Thumbnail")
