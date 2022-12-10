@@ -2,8 +2,6 @@ import { useEffect } from "react";
 
 export default function Marquee({ text }) {
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
     let tl = gsap
       .timeline({
         scrollTrigger: {

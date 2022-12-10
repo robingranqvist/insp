@@ -1,9 +1,32 @@
+import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 import logo__flower from "@/assets/logo/logo__flower.svg";
 
 export default function Nav() {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    let t2 = gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: ".marquee",
+          scrub: true,
+          start: "top 50%",
+          end: "bottom -50%",
+        },
+      })
+      .fromTo(
+        ".nav__logo",
+        {
+          rotation: 0,
+        },
+        {
+          rotation: 360,
+        }
+      );
+  }, []);
+
   return (
     <div className="container">
       <nav className="nav">
