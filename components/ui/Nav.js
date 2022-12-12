@@ -7,6 +7,7 @@ import logo__flower from "@/assets/logo/logo__flower.svg";
 export default function Nav() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
+
     let t2 = gsap
       .timeline({
         scrollTrigger: {
