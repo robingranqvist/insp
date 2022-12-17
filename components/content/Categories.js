@@ -2,7 +2,7 @@ import Link from "next/link";
 import CategoryLink from "./CategoryLink";
 
 export default function Categories({ active }) {
-  const routes = ["minimal", "saas", "portfolio", "blog"];
+  const routes = ["minimal", "saas", "portfolio", "blog", "ecommerce"];
 
   return (
     <div className="container is--sticky">
